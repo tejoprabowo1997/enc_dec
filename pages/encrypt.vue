@@ -53,7 +53,7 @@ const submit = async () => {
     <div class="col-6">
       <q-form @submit.prevent="submit">
         <q-card>
-          <q-card-section class="bg-green-10 text-white">
+          <q-card-section class="bg-red-10 text-white">
             <div class="text-h6">Encrypt data</div>
             <div class="text-subtitle2">Please encrypt your data</div>
           </q-card-section>
@@ -75,7 +75,7 @@ const submit = async () => {
           </q-card-section>
 
           <q-card-section>
-            <q-input v-model="encryptKey" label="Key" color="green-8" filled />
+            <q-input v-model="encryptKey" label="Key" color="green-10" filled />
           </q-card-section>
 
           <q-card-section>
