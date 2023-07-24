@@ -53,7 +53,7 @@ const submit = async () => {
     <div class="col-6">
       <q-form @submit.prevent="submit">
         <q-card>
-          <q-card-section class="bg-red-6 text-white">
+          <q-card-section class="bg-green-10 text-white">
             <div class="text-h6">Encrypt data</div>
             <div class="text-subtitle2">Please encrypt your data</div>
           </q-card-section>
@@ -91,7 +91,7 @@ const submit = async () => {
           <q-separator />
 
           <q-card-actions class="justify-center">
-            <q-btn type="submit" color="#ececec" style="width: 50%">Submit</q-btn>
+            <q-btn type="submit" color="green-8" style="width: 50%">Submit</q-btn>
           </q-card-actions>
         </q-card>
       </q-form>
