@@ -34,7 +34,7 @@ const listSideMenuUser: IListSideMenuUser[] = [
 </script>
 
 <template>
-  <q-drawer show-if-above v-model="sideMenu" class="bg-red-3" elevated>
+  <q-drawer show-if-above v-model="sideMenu" class="bg-green-3" elevated>
     <q-scroll-area class="fit">
       <div class="q-pa-sm">
         <q-list v-for="(menu, indexMenu) in listSideMenuUser" :key="indexMenu" separator>
@@ -44,7 +44,7 @@ const listSideMenuUser: IListSideMenuUser[] = [
             v-ripple
             :active="menu.name === route.name"
             :to="menu.route"
-            active-class="bg-red-6 text-white"
+            active-class="bg-green-6 text-white"
           >
             <q-item-section avatar>
               <q-icon :name="menu.icon" />
