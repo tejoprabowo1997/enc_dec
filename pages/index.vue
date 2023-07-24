@@ -41,7 +41,7 @@ const submit = async () => {
           v-model="nikOrEmail"
           label="Username / Email"
           color="red-10"
-          bg-color="red-1"
+          bg-color="#ececec"
           filled
           class="q-mb-md"
           :rules="[(val) => !!val || 'NIK atau Email tidak boleh kosong']"
@@ -55,7 +55,7 @@ const submit = async () => {
           label="Password"
           :type="showPassword ? 'text' : 'password'"
           color="red-10"
-          bg-color="red-1"
+          bg-color="#ececec"
           filled
           class="q-mb-md"
           :rules="[(val) => !!val || 'Password tidak boleh kosong']"
