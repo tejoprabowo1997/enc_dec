@@ -17,7 +17,7 @@ watch(
       $q.loading.show({
         message: value.message || 'Loading...',
         spinnerSize: 100,
-        spinnerColor: 'red-6',
+        spinnerColor: 'green-6',
         spinner: QSpinnerGears,
         messageColor: 'red-6',
         backgroundColor: 'white',
