@@ -66,16 +66,16 @@ const submit = async () => {
               :options="encryptMethodList"
               label="Encrypt method"
               filled
-              color="red-6"
+              color="green-10"
             />
           </q-card-section>
 
           <q-card-section>
-            <q-file v-model="file" label="File" filled color="red-6" />
+            <q-file v-model="file" label="File" filled color="green-8" />
           </q-card-section>
 
           <q-card-section>
-            <q-input v-model="encryptKey" label="Key" color="red-6" filled />
+            <q-input v-model="encryptKey" label="Key" color="green-8" filled />
           </q-card-section>
 
           <q-card-section>
@@ -91,7 +91,7 @@ const submit = async () => {
           <q-separator />
 
           <q-card-actions class="justify-center">
-            <q-btn type="submit" color="red-6" style="width: 50%">Submit</q-btn>
+            <q-btn type="submit" color="#ececec" style="width: 50%">Submit</q-btn>
           </q-card-actions>
         </q-card>
       </q-form>
