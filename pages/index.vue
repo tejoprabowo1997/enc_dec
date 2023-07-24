@@ -73,7 +73,7 @@ const submit = async () => {
             <q-icon name="visibility_off" v-else class="cursor-pointer" @click="showPassword = !showPassword" />
           </template>
         </q-input>
-        <q-btn type="submit" label="LOGIN" color="red-10" unelevated style="width: 100%" />
+        <q-btn type="submit" label="LOGIN" color="green-10" unelevated style="width: 100%" />
       </q-form>
     </div>
   </div>
